@@ -60,8 +60,36 @@ footer{
     font-size: 25px;
 }
 
+.skills{
+    display: flex;
+    padding: 200px 10px;
+}
+
+.contenedor{
+    width: 70vh;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 30vh;
+}
+
 .habilidades{
-    padding: 400px 10px 400px 10px;
+    width: 500px;
+}
+
+.barra{
+    width: 400px;
+    height: 10px;
+    background-color: rgb(165, 165, 165);
+    border-radius: 10px;
+}
+.progreso{
+    width: var(--w);
+    height: 100%;
+    background: rgb(128, 0, 255);
+    border-radius: 10px;
 }
 
 .footer{

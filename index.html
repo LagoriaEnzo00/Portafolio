@@ -8,22 +8,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@1&display=swap" rel="stylesheet">
-    <title>Lagoria Enzo | Designer | Front-end Developer</title>
+    <title>Lagoria Enzo | Designer | FullStack Web Developer | App Developer</title>
     <link rel="stylesheet" href="styleindex.css">
+    <link rel="shortcut icon" href="img/logoenzo.png" type="image/png">
+    <script defer src="script.js"></script>
 </head>
 <body>
     <!--Barra de navegacion-->
-    <nav class="nav">
-        <a href="" class="nav-enlace">Contact Me</a>
-        <a href="" class="nav-enlace">Works</a>
-    </nav>
-
+    <header class="header">
+        <nav class="nav">
+            <a href=""><div class="imgLogo" style="background-image: url('./img/logoenzo.png')"></div></a>
+            <button class="nav-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item">
+                    <a href="" class="nav-menu-link">Contact Me</a>
+                </li>
+                <li class="nav-menu-item">
+                    <a href="" class="nav-menu-link">Works</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <!--Mi Presentacion-->
     <section>
-        <article class="presentacion">
-            <h1 class="titulo-pres">Hi, I´m Lagoria Enzo Hi</h1>
-            <h2 class="subtitulo-pres">Designer, Front-end Developer</h2>
-        </article>
+        <div class="presentacion">
+            <div class="sobreMi">
+                <h1 class="titulo-pres">Hi, I´m Lagoria Enzo</h1>
+                <h2 class="subtitulo-pres">Designer, FullStack Web Developer and App Developer</h2>
+            </div>
+            <div class="setup" style="background-image: url('./img/setup.png')"></div>
+        </div>
         <article class="presentacion-2">
             <h3 class="titulo-sobremi">Hi. Nice to meet you.</h3>
             <p class="sobre-mi">Since beginning my journey as a freelance designer nearly
@@ -101,13 +117,54 @@
                 </div>
             </div>
         </div>
+        <div class="who">
+            <h3>Who I am?</h3>
+            <p>I´m a FullStack Web Developer and App Developer <br>
+            I have serious passion for UI/UX effects, animations and creating intuitive dynamic user experiences</p>
+        </div>
+    </section>
+    <section class="section-metodo">
+        <div class="metodo">
+            <div class="dynamic">
+                <h3>Dynamic</h3>
+                <p>Websites don´t have to be static, I love <br>
+                making pages come to life</p>
+            </div>
+            <div class="responsive">
+                <h3>Responsive</h3>
+                <p>My Websites will work on any device,<br> 
+                big or small</p>
+            </div>
+            <div class="intuitive">
+                <h3>Intuitive</h3>
+                <p>Strong preferences for easy to <br>
+                use, intuitive UX/UI</p>
+            </div>
+            <div class="fast">
+                <h3>Fast</h3>
+                <p>Fast load times and lag free <br> 
+                interaction, my highest priority</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Mis trabajos-->
+
+    <section class="trabajos">
+        <h2>My proyects</h2>
+        <div class="misTrabajos">
+            <p>soon I will be uploading my works</p>
+        </div>
     </section>
 
     <!--Mis redes-->
 
     <footer class="footer">
-        <h4>My social networks</h4><br>
+        <div class="logo">
+            <a href=""><div class="imgLogo" style="background-image: url('./img/logo1.png')"></div></a>
+        </div>
         <div class="redes-container">
+            <h4>My social networks</h4>
             <ul>
                 <li><a href="https://www.instagram.com/enzo_lagoria0/" class="instagram"><i class="fa-brands fa-instagram"></i></a></li>
                 <li><a href="https://twitter.com/JavierLagoria" class="twitter"><i class="fa-brands fa-twitter"></i></a></li>
@@ -115,6 +172,9 @@
                 <li><a href="https://github.com/LagoriaEnzo00" class="github"><i class="fa-brands fa-github"></i></a></li>
                 <li><a href="https://www.facebook.com/enzojavier.lagoria/" class="facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
             </ul>
+        </div>
+        <div class="derechos">
+            <p>Portafolio Lagoria Enzo copyright ©2022</p>
         </div>
     </footer>
 
